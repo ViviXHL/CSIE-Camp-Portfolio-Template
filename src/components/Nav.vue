@@ -15,11 +15,11 @@ const links = [
                 'w-full',
                 'rounded-b-lg',
                 'bg-gradient-to-r',
-                'from-violet-800',
-                'to-indigo-600',
+                'from-sky-300',
+                'to-sky-600',
                 'pl-24',
                 'shadow-lg',
-                'shadow-indigo-400',
+                'shadow-indigo-600',
                 'md:pl-32',
                 'transition-all',
                 'duration-200',
@@ -48,7 +48,7 @@ const links = [
             leave-to-class="transform -translate-x-32"
         >
             <div
-                class="absolute top-4 left-4 z-50 h-20 w-20 overflow-hidden rounded-full bg-pink-200 shadow-md shadow-blue-300 ring-1 ring-violet-700 md:h-24 md:w-24"
+                class="absolute top-4 left-4 z-50 h-20 w-20 overflow-hidden rounded-full bg-pink-200 shadow-md shadow-blue-300 ring-1 ring-sky-800 md:h-24 md:w-24"
                 v-if="$route.path !== '/about'"
             >
                 <img src="https://placekitten.com/320/320" class="w-full rounded-full" />
